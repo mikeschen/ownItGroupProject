@@ -1,0 +1,39 @@
+<div class="center">
+  <div class="transparentwhitebox">
+    <h2>Add New User</h2>
+    <p class="login-label">Enter Your Name</p>
+    <form action='/' method='post'>
+      <input id="username" name="username" type="text" autofocus="true">
+      <button type='submit' class='btn btn-primary'>Add Me</button>
+    </form>
+    #if ($duplicateuserrequested)
+      <p>Please enter a different name</p>
+    #elseif (!($duplicateuserrequested))
+    #end
+    <a class="linkBlack" href="/">Back to Login Page</a>
+  </div>
+</div>
+<div class="row howToUse center">
+  <h2 class="center">How "OWN IT" Works</h2>
+  <div class="col-sm-4">
+    <h3> Step 1. Create an account </h3>
+    <p>Log in (If you already tear it up!)</p>
+    <p>Create an account (If want to tear it up)</p>
+  </div>
+  <div class="col-sm-4">
+      <h3> Step 2. Get Active </h3>
+        <p>Get out there and land some tricks.</p>
+        <p>Start your session by landing easy tricks</p>
+        <p>Challenge yourself to attempt harder tricks</p>
+        <p>Research new tricks, and practice them</p>
+  </div>
+  <div class="col-sm-4">
+      <h3> Step 3. Record Tricks </h3>
+      <p>Log onto OWN IT</p>
+      <p>Get stoked about your most recent session.</p>
+      <p>Add tricks to your Sport / Category of Choice.</p>
+      <p>Review your library of tricks</p>
+      <p> Eat, Sleep, Session, Repeat </p>
+  </div>
+</div>
+<img id="gif-background" src="/img/snowboardpage5.gif" alt="snowboard-flip" />

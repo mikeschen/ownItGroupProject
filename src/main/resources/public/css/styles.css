@@ -1,0 +1,203 @@
+/*.MAIN USED ON ALL SUB PAGES*/
+.main {
+  color: #333d47;
+  font-size: 18px;
+  font-family: Montserrat;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.btn-custom {
+  color: white;
+  border: 1px darkgrey;
+  background:rgba(0,0,0,0.40);
+}
+.btn-custom:hover {
+  cursor: auto;
+  color: white;
+  border: 1px darkgrey;
+  background:rgba(0,0,0,0.40);
+}
+
+.transparentBackground {
+  background:rgba(0,0,0,0.5);
+}
+
+.active {
+  opacity: .3;
+}
+
+.bottomMargin {
+  margin-bottom: 5px;
+}
+
+.topMargin {
+  margin-top: 60px;
+}
+
+.editDeleteBtns {
+  margin-left: 5px
+}
+
+.center {
+  text-align: center;
+}
+
+.thePadding {
+  padding-bottom: 11px;
+}
+
+.transparentbox {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  border-radius: 20px;
+  background:rgba(0,0,0,0.40);
+}
+
+.transparentwhitebox {
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  border-radius: 20px;
+  background:rgba(255,255,255,0.40);
+}
+
+#loginUsername {
+  font-weight: bolder;
+  color: grey;
+  border-radius: 5px;
+}
+
+#username {
+  font-weight: bolder;
+  color: grey;
+  border-radius: 5px;
+}
+
+.link {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.link:hover {
+  color: #337ab7;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.linkBlack {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.linkBlack:hover {
+  color: #337ab7;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 150%;
+
+}
+
+.btntextcolor {
+  color: black;
+}
+
+.login-label {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+#gif-background {
+/*  making the gif fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+.howToUse {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: 0px;
+  background:rgba(0,0,0,0.40);
+}
+
+.howToUseWhite {
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: 0px;
+  background:rgba(255,255,255,0.40);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-form > * {
+  color: #565a5c;
+  border: 0;
+  padding: 8px;
+  line-height: 20px;
+  font-size: 19px;
+  border-radius: 0;
+  outline: 0;
+  border-right: 1px solid rgba(0,0,0,0.3);
+  -/*webkit-appearance: none;*/
+}
+
+.flex-form > *: last-child {
+  border-right: 0;
+}
+
+/*Flexbox Starts Here*/
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-form{
+  display: flex;
+  border: 12px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+input[type="search"] {
+  flex-basis:350px;
+}
+
+#trickbutton{
+  color: white;
+}
+
+.smalltext {
+  font-size: 14px;
+}

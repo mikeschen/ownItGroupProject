@@ -1,0 +1,1 @@
+web: ./build/install/own-it/bin/own-it
